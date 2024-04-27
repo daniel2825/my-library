@@ -1,5 +1,6 @@
 import logo from './book.png';
-import BookComponent from './component/bookComponent';
+import BookComponent from './component/SendBookComponent';
+import GetBookComponent from './component/GetBookComponent';
 import './App.css';
 
 function App() {
@@ -13,9 +14,12 @@ function App() {
         <h1>Book register</h1>
         </div>
         <BookComponent/>
+        
       
       </header>
-      <h1>fdf</h1>
+      <body>
+      <GetBookComponent/>
+      </body>
     </div>
   );
 }
