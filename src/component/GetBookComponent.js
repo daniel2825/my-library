@@ -41,6 +41,11 @@ const BookList = () => {
                 <p>Name: {data.bookByName.name}</p>
                 <p>Year: {data.bookByName.year}</p>
                 <p>Page count: {data.bookByName.pageCount}</p>
+                {data.bookByName.author.map((author) => (
+                  <ul id={author.name}>
+                      <li>Author: {author.name}</li>
+                  </ul>
+                ))}
               </div>
             )}
     </div>

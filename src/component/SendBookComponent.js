@@ -69,6 +69,7 @@ const SendBook = () => {
             <input type='text' name='countryBook' placeholder='Country book'/>
             <input type='text' name='editorialName' placeholder='Editorial name'/>
             <input type='text' name='editorialCity' placeholder='Editorial city'/>
+            <h3>Authors</h3>
             <input type='text' name='authorName' placeholder='Author name'/>
             <input type='text' name='authorId' placeholder='Number identification Author'/>
             <input type='text' name='authorCity' placeholder='Author city'/>
