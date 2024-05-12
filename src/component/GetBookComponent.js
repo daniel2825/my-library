@@ -34,7 +34,7 @@ const BookList = () => {
       <h2>Search book</h2>
 
             <input type='text' onChange={(e) => setBookInput(e.target.value)} placeholder='Book name' />    
-            <button onClick={() => bookByName({variables : {bookName: bookInput}})}>Submit</button>
+            <button onClick={() => bookByName({variables : {bookName: bookInput}})}>Search book</button>
             {data && data.bookByName && (
               <div>
                 <h1>Book Details</h1>

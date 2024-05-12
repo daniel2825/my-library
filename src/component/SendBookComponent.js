@@ -64,17 +64,26 @@ const SendBook = () => {
           <div>
             <form onSubmit={HandleSubmit}>
             <input type='text' name='bookName' placeholder='Book name' />
+            <br/>
             <input type='text' name='pageCount' placeholder='Page count'/>
+            <br/>
             <input type='text' name='year' placeholder='Year'/>
+            <br/>
             <input type='text' name='countryBook' placeholder='Country book'/>
+            <br/>
             <input type='text' name='editorialName' placeholder='Editorial name'/>
+            <br/>
             <input type='text' name='editorialCity' placeholder='Editorial city'/>
-            <h3>Authors</h3>
+            <br/>   
             <input type='text' name='authorName' placeholder='Author name'/>
+            <br/>
             <input type='text' name='authorId' placeholder='Number identification Author'/>
+            <br/>
             <input type='text' name='authorCity' placeholder='Author city'/>
+            <br/>
             <input type='text' name='authorCountry' placeholder='Author country'/>       
-            <button type='submit'>Submit</button>
+            <br/>
+            <button type='submit'>Register book</button>
             </form>
           </div>
         );
